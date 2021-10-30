@@ -1,0 +1,98 @@
+@font-face {
+    font-family:'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/oswald-v40-latin_cyrillic-ext-500.woff2') format('woff2'),
+    url('../fonts/oswald-v40-latin_cyrillic-ext-500.woff') format('woff');
+    
+}
+
+@font-face {
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/montserrat-v18-latin_cyrillic-ext-500.woff2') format('woff2'), 
+    url('../fonts/montserrat-v18-latin_cyrillic-ext-500.woff') format('woff');
+}
+
+/* common */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;sans-serif;
+    color: #060D10;
+}
+
+.img {
+  width: 100%;
+}
+/* header */
+.header {
+    padding: 42px 0px;
+    background-color: #66D1FF ;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn {
+      margin-left: 81px;
+      padding: 8px 41px;
+      font-family: Montserrat; sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      text-decoration: none;
+      color: #060D10;
+      background: #ffffff;
+      border: 2px solid #FFFFFF;
+      border-radius: 4px;
+  }
+
+
+  .phone {
+      margin-right: 81px;
+    font-family: Montserrat; sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #060D10;
+  }
+
+  .promo { 
+    padding: 240px 0;
+    text-align: center;
+    background-image: url(../images/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .promo-text {
+    font-family: Oswald; sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #060D10;
+  }
+
+  .promo-info {
+    font-family: Montserrat; sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+  }
