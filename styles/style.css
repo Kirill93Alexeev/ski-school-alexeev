@@ -23,12 +23,19 @@
 }
 
 body {
+  margin: 0px;
     font-family: Montserrat;sans-serif;
     color: #060D10;
 }
 
 .img {
+  display: block;
   width: 100%;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
 }
 /* header */
 .header {
@@ -42,23 +49,24 @@ body {
     justify-content: space-between;
   }
 
-  .btn {
-      margin-left: 81px;
+  .btn { 
+    display: inline-block;
       padding: 8px 41px;
       font-family: Montserrat; sans-serif;
       font-weight: 500;
       font-size: 24px;
       line-height: 29px;
       text-decoration: none;
+      text-align: center;
       color: #060D10;
-      background: #ffffff;
+      background-color: #ffffff;
       border: 2px solid #FFFFFF;
       border-radius: 4px;
+      cursor: pointer;
   }
 
 
   .phone {
-      margin-right: 81px;
     font-family: Montserrat; sans-serif;
     font-weight: 500;
     font-size: 28px;
@@ -68,12 +76,13 @@ body {
   }
 
   .promo { 
-    padding: 240px 0;
+    padding: 240px 0 260px 0;
     text-align: center;
     background-image: url(../images/promo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
   }
   .promo-text {
     font-family: Oswald; sans-serif;
@@ -86,6 +95,7 @@ body {
     text-shadow: 1px 1px 2px #060D10;
   }
 
+  
   .promo-info {
     font-family: Montserrat; sans-serif;
     font-weight: 500;
@@ -94,5 +104,101 @@ body {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    text-align: center;
+    text-shadow: 1px 1px 2px #060D10;
   }
+
+  /* how to learn */
+  .how-to-learn {
+    background-color:rgba(102, 209, 255, .1);
+   }
+   .how-to-learn-title {
+     padding: 170px 0px 100px 0px;
+   }
+
+   .how-to-learn-list {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0;
+     margin: 0 -15;
+     list-style: none;
+   }
+
+   .how-to-learn-item {
+     flex-basis: 33.33%;
+     padding: 15px;
+   }
+
+   .how-to-learn-card {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100%;
+   }
+
+  .how-to-learn-title {
+    margin: 0;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #060D10;
+  }
+
+  .how-to-learn-heading {
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #060D10;
+
+  }
+
+  .how-to-learn-text {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #060D10;
+  }
+
+  
+.lead-block-card {
+  margin: 0;
+ padding: 170px 0;
+ text-align: center;
+}
+  
+  .lead-block-title {
+    margin-bottom: 30px;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #060D10;
+  }
+
+  .btm {
+    margin: 30px;
+    padding: 20px 107px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #060D10;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #060D10;
+
+  }
+.lead-block{
+background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+background-size: cover;
+background-position: center;
+}
